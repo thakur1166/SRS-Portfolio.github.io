@@ -63,7 +63,7 @@ section {
   position: absolute;
   left: 0;
   top: 0;
-  padding: 3rem 18rem;
+  padding: 3rem 15rem;
 }
 
 .container {
@@ -173,7 +173,7 @@ section {
 .header-content .left-header .image {
   border-radius: var(--br-sm-2);
   height: 90%;
-  width: 68%;
+  width: 70%;
   margin-left: 4rem;
   background-color: var(--color-black);
   transition: all 0.4s ease-in-out;
@@ -246,6 +246,7 @@ section {
   font-size: 1.2rem;
   color: var(--color-grey-1);
   letter-spacing: 2px;
+  width: 180px;
 }
 .about-container .right-about .about-item .abt-text .small-text::before {
   content: "";
@@ -257,7 +258,7 @@ section {
   background-color: var(--color-grey-5);
 }
 .about-container .left-about {
-  padding-right: 5rem;
+  padding-right: 2rem;
 }
 .about-container .left-about p {
   line-height: 2rem;
@@ -403,7 +404,7 @@ section {
 
 .portfolios {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
   margin-top: 3rem;
 }
@@ -437,6 +438,7 @@ section {
   font-size: 1.5rem;
   color: var(--color-white);
   margin-bottom: 1.5rem;
+  text-align: center;
 }
 .portfolios .portfolio-item .hover-items .icons {
   display: flex;
@@ -474,7 +476,7 @@ section {
 
 .blogs {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
   margin-top: 3rem;
 }
@@ -523,13 +525,16 @@ section {
   line-height: 2rem;
   padding-bottom: 1rem;
 }
-
+.read-more-btn {
+  color: #27ae60;
+  text-decoration: underline;
+}
 .contact-content-con {
   display: flex;
   padding-top: 3.5rem;
 }
 .contact-content-con .left-contact {
-  flex: 2;
+  flex: 3;
 }
 .contact-content-con .left-contact h4 {
   margin-top: 1rem;
@@ -542,8 +547,8 @@ section {
 }
 .contact-content-con .left-contact .contact-info .contact-item {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  align-items: baseline;
+  justify-content: flex-start;
 }
 .contact-content-con .left-contact .contact-info .contact-item p {
   margin: 0.3rem 0 !important;
